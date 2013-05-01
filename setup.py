@@ -22,7 +22,7 @@ Operating System :: POSIX
 Topic :: Software Development :: Libraries :: Python Modules
 """.splitlines()))
 
-REPOSITORY="https://coev.googlecode.com/hg/"
+REPOSITORY="https://github.com/lxnt/python-coev.git"
 
 daext = Extension(
     name='_coev', 
