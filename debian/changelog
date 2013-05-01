@@ -1,0 +1,78 @@
+python-libcoev (0.6-1) unstable; urgency=low
+
+  * update to require libucoev 0.6
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Wed, 12 May 2010 18:10:41 +0400
+
+python-libcoev (0.5-3) ubuntu; urgency=low
+
+  * report failed endpoint on iop_timeout
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Mon, 22 Mar 2010 16:19:45 +0300
+
+python-libcoev (0.5-2) unstable; urgency=low
+
+  * plug memleak in .stats(); derive SocketError from IOError.
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Tue, 16 Mar 2010 16:54:07 +0300
+
+python-libcoev (0.5-1) unstable; urgency=low
+
+  * update to require libucoev 0.5; rename coev stats dict key names
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Tue, 09 Feb 2010 17:50:52 +0300
+
+python-libcoev (0.4-1) unstable; urgency=low
+
+  * update to require libucoev 0.4
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Thu, 04 Feb 2010 18:07:17 +0300
+
+python-libcoev (0.3-2) unstable; urgency=low
+
+  * fixed crashes related to poor reference handling 
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Wed, 03 Feb 2010 17:32:51 +0300
+
+python-libcoev (0.3-1) unstable; urgency=low
+
+  * update to match libucoev 0.3
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Fri, 29 Jan 2010 16:43:50 +0300
+
+python-libcoev (0.2-1) unstable; urgency=low
+
+  * version bump to coincide with required libucoev 
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Tue, 26 Jan 2010 17:38:31 +0300
+
+python-libcoev (0.1-5) unstable; urgency=low
+
+  * Version bump to force use of libucoev 0.2
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Tue, 26 Jan 2010 16:30:05 +0300
+
+python-libcoev (0.1-4) unstable; urgency=low
+
+  * remove explicit join function; use logging in ConnectionPool
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Tue, 26 Jan 2010 15:47:28 +0300
+
+python-libcoev (0.1-3) unstable; urgency=low
+
+  * implicit join re-enabled
+
+ -- Alexander Sabourenkov <a.saburenkov@hh.ru>  Mon, 25 Jan 2010 18:24:39 +0300
+
+python-libcoev (0.1-2) unstable; urgency=low
+
+  * Fix debian dependencies
+
+ -- Nikolay Sivko <sivko@hh.ru>  Mon, 30 Nov 2009 18:31:49 +0300
+
+python-libcoev (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Nikolay Sivko <sivko@hh.ru>  Mon, 30 Nov 2009 17:14:28 +0300
+
